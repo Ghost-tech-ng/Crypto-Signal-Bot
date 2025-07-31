@@ -1,0 +1,15 @@
+{
+  "min_risk_reward": 4.0,
+  "max_risk_percent": 0.02,
+  "monitored_pairs": ["BTCUSDT", "ETHUSDT", "ADAUSDT", "DOTUSDT"],
+  "timeframes": ["5m", "15m", "1h"],
+  "confidence_threshold": 0.7,
+  "signal_check_interval": 30,
+  "klines_limit": 200,
+  "swing_window": 5,
+  "order_block_lookback": 20,
+  "max_order_blocks": 50,
+  "max_fair_value_gaps": 50,
+  "max_swing_points": 20,
+  "liquidity_sweep_buffer": 0.002
+}

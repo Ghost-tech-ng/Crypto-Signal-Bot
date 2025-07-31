@@ -1,7 +1,13 @@
 [project]
-name = "python-template"
+name = "crypto-trading-bot"
 version = "0.1.0"
-description = ""
+description = "Premium Crypto Trading Bot using Smart Money Concepts"
 authors = ["Your Name <you@example.com>"]
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "pandas",
+    "numpy",
+    "python-telegram-bot",
+    "aiohttp",
+    "ta",
+]
